@@ -119,7 +119,14 @@ get_header(); ?>
             <br style="clear: both;">
             </div> <!-- /.newsItemContent -->
           </div> <!-- /.newsItem -->
-
+          <div class="newsItem" style="width: 100%;">
+          <h1 class="newsItem-Title"><a href="https://www.youtube.com/playlist?list=PLlKk9K1KlxgboNA1G67BEs4KR5VAdLpr0">Recent Webinars</a></h1>
+            <div class="newsItemContent">
+              <div class="col-xs-12">
+                <iframe style="padding-bottom: 20px; max-width: 100%;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLlKk9K1KlxgboNA1G67BEs4KR5VAdLpr0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div> <!-- /.newsItemContent -->
+        </div> <!-- /.newsItem -->
       </div>
     </div>
   </div>
