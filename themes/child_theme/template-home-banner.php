@@ -108,7 +108,7 @@ get_header(); ?>
 
               <div class="col-sm-12">
                 <div class="news-padding-fix">
-                  <li><a href="<?php echo $link ?>"><h4><?php echo $recent["post_title"]; ?></h4></a></li>
+                  <a href="<?php echo $link ?>"><h4><?php echo $recent["post_title"]; ?></h4></a><br class="hidden-md hidden-lg">
                 </div>
               </div>
               <!-- End News Story -->
