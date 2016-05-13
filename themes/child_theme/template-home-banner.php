@@ -51,7 +51,7 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div class="newsItem">
+        <div class="newsItem" style="width: 100%;">
           <h1 class="newsItem-Title"><a href="<?php echo site_url(); ?>/category/report">Reports</a></h1>
             <div class="newsItemContent">
             <?php
@@ -71,14 +71,14 @@ get_header(); ?>
               <div class="col-xs-12">
                 <h3><a href="<?php echo get_permalink($recent["ID"]); ?>"><?php echo $recent["post_title"]; ?></a></h3>
                 <?php if(!empty($thumb_id)) : ?>
-                  <img style="min-width: 250px;" src="<?php echo $featured_thumb_URL; ?>" class="img-responsive hidden-xs" alt="<?php echo $recent["post_title"]; ?>">
+                    <img src="<?php echo $featured_thumb_URL; ?>" class="img-responsive hidden-xs" alt="<?php echo $recent["post_title"]; ?>">
                 <?php endif; ?>
                 <br>
                 <p><?php echo $blurb  . " [...]"; ?></p>
               </div>
             <?php endforeach; ?>
             <br style="clear: both;">
-            <a href="#" class="btn btn-default btn-sm pull-right">View All Reports &raquo;</a>
+            <a href="/commercialag/ageconomybarometer/category/report/" class="btn btn-default btn-sm pull-right">View All Reports &raquo;</a>
             <br style="clear: both;">
           </div> <!-- /.newsItemContent -->
         </div> <!-- /.newsItem -->
